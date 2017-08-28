@@ -1,0 +1,24 @@
+
+body{
+    background-color: #333;
+}
+
+/*Title Animation*/
+
+#colorTitle {color: #39f !important;}
+@-webkit-keyframes colours {
+0% {color: white;}
+25% {color: royalblue;}
+50% {color: lightgreen;}
+75% {color: indianred;}
+100% {color: yellow;}
+
+}
+#colorTitle {
+-webkit-animation-direction: normal;
+-webkit-animation-duration: 6s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-name: colours;
+-webkit-animation-timing-function: ease;
+}
+
